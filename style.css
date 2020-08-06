@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#main_div1,#main_div2{
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid gray;
+}
+.flex-container-1,.flex-container-2,.flex-blackjack-row-1{
+    display: flex;
+    margin: 2px;
+    flex-wrap: wrap;
+
+   
+    border: 1px solid purple;
+    justify-content: space-around;
+
+}
+#intro{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:darkgoldenrod;
+
+}
+#your-box img{
+    height: 100px;
+    padding: 2px;
+
+}
+#dealer-box img{
+    height: 100px;
+    padding: 2px;
+
+}
+.flex-blackjack-row-1{
+    color: #ffffff;
+    background-image: url("tableBackground.png") ;
+}
+.flex-blackjack-row-1 div{
+    margin: 2px;
+    height: 350px;
+    border: solid 0.7px #ffffff;
+    padding: 10px;
+    flex: 1;
+}
+.flex-blackjack-row-2,.flex-blackjack-row-3{
+    display: flex;
+    background-image: url("tableBackground.png");
+    justify-content: center;
+    color: #ffffff;
+    border:solid 1px #ffffff;
+}
+.button_holder{
+    margin: 5px 5px;
+    border: solid 1px #ffffff;
+    padding: 4px;
+
+}
+
+.button_holder button:hover{
+
+    box-shadow: 1px 3px 5px rgb(73, 69, 69);
+    top: -3.5px;
+    
+}
+
+.button_holder button{
+    
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin: 10px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table,td,th{
+    padding: 2px;
+    border: solid 1px wheat;
+}
+
+#butt{
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.flex-container-2 img{
+    margin: 10px;
+    box-shadow:0px 0px 10px palevioletred ;
+
+
+}
+#flex-container-3{
+display: flex;
+margin: 2px;
+
+
+border: 1px solid purple;
+justify-content: space-around;
+
+}
+#flex-container-3 div{
+    font-size: 35px;
+    font-weight: 200;
+    color: palevioletred;
+
+}
+#flex-container-3 img:hover{
+    box-shadow:0px 0px 10px rgb(85, 7, 33) ;
+
+
+}
+
